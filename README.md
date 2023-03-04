@@ -9,6 +9,7 @@ Such a curpus is present in this repository in the "/corpus" file - which contai
 **Compiling the program** - assuming you have apache-ant installed, compile with the terminal command:  
 `ant compile`
 in the "HypernymyFinder" directory. This command uses the build.xml file for compiling the code files.  
+**Note:** this repository already has the 'bin' folder that includes the compiled files. Compiling again will simply replace them with the newly compiled files.  
 
 This program has two functionalities:  
 ## **First Functionality** - Identifying Hypernymy in a given a corpus with annotated noun phrases  
