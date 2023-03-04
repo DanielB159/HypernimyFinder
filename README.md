@@ -31,12 +31,12 @@ this functionality can be run using the terminal command:
 for example: `ant run1 -Dargs="C:\Users\daniel\Desktop\HypernimyFinder\corpus C:\Users\daniel\Desktop\HypernimyFinder"`  
   
   
-## **Second Functionality** - finding hyponyms to a given hypernym  
-This functionality gets as input two parameters: **1. path to a corpus folder**. **2. a hypernym**.  
-It then reads the corpus the same way it read it in the first functionality, and outputs all possible hyponyms to the given hypernym.
+## **Second Functionality** - finding hypernyms to a given hyponym  
+This functionality gets as input two parameters: **1. path to a corpus folder**. **2. a hyponym**.  
+It then reads the corpus the same way it read it in the first functionality, and outputs all possible hypernyms to the given hyponym.
 
 this functionality can be run using the terminal command:  
-`ant run2 -Dargs="<corpus folder path> <hypernym>"`  
+`ant run2 -Dargs="<corpus folder path> <hyponym>"`  
 **Note:** here also, path can be absolute or relative  
 for example: using the corpus example in this repository with the terminal command: `ant run1 -Dargs="C:\Users\daniel\Desktop\HypernimyFinder\corpus apple"`  
 will yield the results:  
