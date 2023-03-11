@@ -1,4 +1,5 @@
 # HypernymyFinder
+## Introduction
 **"Hypernymy"**, also called "IS-A relation", is a relation between two noun phrases, X and Y, meaning that: "X is a kind of Y". In this example, X is the *hypernym* of Y, and Y is the *hyponym* of X.
 
 **Note 1:** this program works with a corpus that has annotated noun-phrases. The annotation for each noun-phrase is "<np> noun-phrase </np>".  
@@ -11,8 +12,19 @@ Such a curpus is present in this repository in the "/corpus" file - which contai
 in the "HypernymyFinder" directory. This command uses the build.xml file for compiling the code files.  
 **Note:** this repository already has the 'bin' folder that includes the compiled files. Compiling again will simply replace them with the newly compiled files.  
 
+## Key Learnings
+By developing this project, i have gained experience in the following areas:  
+- Identifying *Hearst Patterns* in a corpus Using *REGEX*.
+- *OOP*
+
+## Design Patterns
+- Singleton
+- Template Pattern
+
+
+## Usage and examples
 This program has two functionalities:  
-## **First Functionality** - Identifying Hypernymy in a given a corpus with annotated noun phrases  
+#### **First Functionality** - Identifying Hypernymy in a given a corpus with annotated noun phrases  
 This functionality gets as input two parameters: **1. path to a corpus folder**. **2. path to an output folder**.  
 It then reads all of the files in the corpus folder, and identifies Hypernymy relations using *REGEX* of typical sentences that identify Hypernymy.  
 such as: (NP is initials for "noun-phrase")  
@@ -31,7 +43,7 @@ this functionality can be run using the terminal command:
 for example: `ant run1 -Dargs="C:\Users\daniel\Desktop\HypernimyFinder\corpus C:\Users\daniel\Desktop\HypernimyFinder"`  
   
   
-## **Second Functionality** - finding hypernyms to a given hyponym  
+#### **Second Functionality** - finding hypernyms to a given hyponym  
 This functionality gets as input two parameters: **1. path to a corpus folder**. **2. a hyponym**.  
 It then reads the corpus the same way it read it in the first functionality, and outputs all possible hypernyms to the given hyponym.
 
