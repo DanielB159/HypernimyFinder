@@ -15,12 +15,9 @@ in the "HypernymyFinder" directory. This command uses the build.xml file for com
 ## Key Learnings
 By developing this project, i have gained experience in the following areas:  
 - Identifying *Hearst Patterns* in a corpus Using *REGEX*.
-- *OOP*
-
-## Design Patterns
-- Singleton
-- Template Pattern
-
+- *OOP* principles such as encapsulation and interfaces.
+- Implementing the Singleton Design Pattern.
+- Implementing the Template Design Pattern.  
 
 ## Usage and examples
 This program has two functionalities:  
