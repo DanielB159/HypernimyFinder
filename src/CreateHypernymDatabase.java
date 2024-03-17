@@ -13,7 +13,7 @@ public class CreateHypernymDatabase {
      *             argument is the path to the output file.
      */
     public static void main(String[] args) {
-        TreeMap<Hypernym, TreeMap<String, Integer>> map = HypernymDatabase.buildDatabase(args[1], null);
-        HypernymDatabase.writeDatabase(map, args[2] + "\\" + "hypernym_db.txt");
+        TreeMap<Hypernym, TreeMap<String, Integer>> map = HypernymDatabase.buildDatabase(args[0], null);
+        HypernymDatabase.writeDatabase(map, args[1] + "\\" + "hypernym_db.txt");
     }
 }
