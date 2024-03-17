@@ -1,6 +1,6 @@
 # HypernymyFinder
 ## Introduction
-**"Hypernymy"**, also called "IS-A relation", is a relation between two noun phrases, X and Y, meaning that: "X is a kind of Y". In this example, X is the *hypernym* of Y, and Y is the *hyponym* of X.
+**"Hypernymy"**, also called "IS-A relation", is a relation between two noun phrases, X and Y, meaning that: "X is a type of Y". In this example, X is the *hypernym* of Y, and Y is the *hyponym* of X.
 
 **Note 1:** this program works with a corpus that has annotated noun-phrases. The annotation for each noun-phrase is "<np> noun-phrase </np>".  
 Such a curpus is present in this repository in the "/corpus" file - which contains 10 samples of files with Wikipidea articles. There is only 336MB worth of articles in this repository, meant to demonstrate the functionality of this program, while the original code was used with 1.3GB of annotated articles.
